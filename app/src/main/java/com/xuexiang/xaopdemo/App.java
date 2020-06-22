@@ -54,6 +54,7 @@ public class App extends Application {
 
         XAOP.init(this);
         XAOP.debug(true);
+        com.xuexiang.xaop.logger.XLogger.setTag("test");
 //        XAOP.setPriority(Log.INFO);
         XAOP.setOnPermissionDeniedListener(new PermissionUtils.OnPermissionDeniedListener() {
             /**

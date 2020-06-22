@@ -35,6 +35,7 @@ public final class AppExecutors {
 
     private static AppExecutors sInstance;
 
+
     /**
      * 单线程池
      */

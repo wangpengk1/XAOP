@@ -159,7 +159,7 @@ deps.calligraphy = "uk.co.chrisjenx:calligraphy:$versions.calligraphy"
 ext.deps = deps
 
 def build_versions = [:]
-build_versions.min_sdk = 16
+build_versions.min_sdk = 19
 build_versions.target_sdk = 29
 build_versions.build_tools = "30.0.0"
 ext.build_versions = build_versions
